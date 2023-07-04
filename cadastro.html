@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Pet Monitor</title>
+</head>
+<body>
+
+    <!--  topo do site (padrao para todos)-->
+
+    <header>
+        <a href="pginicial.html"><img class="logo" src="logotype.svg"></a>
+        <ul class="navlinks">
+            <li>
+                <a href="mapa.html" class="active">
+                    Mapa
+                </a>
+            </li>
+            <li>
+                <a href="cadastro.html">
+                    Cadastre-se
+                </a>
+            </li>
+            <li>
+                <a href="seupet.html">
+                    Seu pet
+                </a>
+            </li>
+            <li>
+                <a href="sobre.html">
+                    Sobre
+                </a>
+            </li>
+        </ul>
+        <div class="right">
+            <a href="login.html" class="user"><i class="ri-user-fill"></i>Login</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+    <!-- corpo do site -->
+
+
+   
+    <div class="container">
+        <div class="header">
+            <h2>Criar uma conta</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nome de usuario</label>
+                <input type="text" id="username" placeholder="digite seu nome de usuario" />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="telefone">Telefone para notificação</label>
+                <input type="text" id="telefone" placeholder="digite seu telefone" />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="address">Endereço residencial</label>
+                <input type="text" id="address" placeholder="digite seu endereço" />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="cpf">CPF do Usuario</label>
+                <input type="text" id="cpf" placeholder="digite seu cpf" />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="digite seu email"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="digite sua senha"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password-confirmation">Confirmação de senha</label>
+                <input type="password" id="password-confirmation" placeholder="confirme sua senha"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>mensagem de erro</small>
+            </div>
+
+            <button type="submit"><strong>enviar</strong></button>
+        </form>
+    </div>
+
+
+
+
+    <!--  footer do site (padrao pra todos) -->
+
+
+    <footer class="footerall">
+        <div class="footerleft">
+            <h3>Arthur Ribeiro</h3>
+            <div class="footerlinks">
+                <li>
+                    <a href="https://www.linkedin.com/in/arthurdocarmoribeiro/">
+                        <i class="ri-linkedin-box-line"></i>
+                        linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/arthuribeir0">
+                        <i class="ri-github-fill"></i>
+                        git
+                    </a>
+                </li>
+            </div>
+        </div>
+
+        <div class="footercenter">
+            <h3>Gustavo de Souza</h3>
+            <div class="footerlinks">
+                <li>
+                    <a href="https://www.linkedin.com/in/gustavo-de-souza-andrade-257a8b26b/">
+                        <i class="ri-linkedin-box-line"></i>
+                        linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/gustavinandrade1">
+                        <i class="ri-github-fill"></i>
+                        git
+                    </a>
+                </li>
+            </div>
+
+        </div>
+
+        <div class="footerright">
+            <p class="footertext">
+                <span>Sobre o Site</span>
+                A perda de um animal de estimação é uma situação
+                angustiante para os donos, e muitas vezes pode ser difícil
+                localizá-los. O <strong>Pet Monitor</strong> visa proporcionar aos donos uma
+                ferramenta simples e eficiente para rastrear seus pets
+                perdidos, aumentando as chances de localizá-los com sucesso.
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/5bd6fb8235.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+    <script type="text/javascript" src="cadastro.js"></script>
+</body>
+</html>
